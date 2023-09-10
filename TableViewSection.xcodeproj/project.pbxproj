@@ -13,6 +13,8 @@
 		E9AAB4EB2AA8BAB600409184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AAB4E92AA8BAB600409184 /* Main.storyboard */; };
 		E9AAB4ED2AA8BAB800409184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AAB4EC2AA8BAB800409184 /* Assets.xcassets */; };
 		E9AAB4F02AA8BAB800409184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AAB4EE2AA8BAB800409184 /* LaunchScreen.storyboard */; };
+		E9AAB4F82AA8C03900409184 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAB4F72AA8C03900409184 /* HeaderView.swift */; };
+		E9AAB4FA2AA8C06100409184 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAB4F92AA8C06100409184 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E9AAB4EC2AA8BAB800409184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9AAB4EF2AA8BAB800409184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9AAB4F12AA8BAB800409184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AAB4F72AA8C03900409184 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E9AAB4F92AA8C06100409184 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				E9AAB4E92AA8BAB600409184 /* Main.storyboard */,
 				E9AAB4EC2AA8BAB800409184 /* Assets.xcassets */,
 				E9AAB4EE2AA8BAB800409184 /* LaunchScreen.storyboard */,
+				E9AAB4F72AA8C03900409184 /* HeaderView.swift */,
+				E9AAB4F92AA8C06100409184 /* FooterView.swift */,
 				E9AAB4F12AA8BAB800409184 /* Info.plist */,
 			);
 			path = TableViewSection;
@@ -141,6 +147,8 @@
 				E9AAB4E82AA8BAB600409184 /* ViewController.swift in Sources */,
 				E9AAB4E42AA8BAB600409184 /* AppDelegate.swift in Sources */,
 				E9AAB4E62AA8BAB600409184 /* SceneDelegate.swift in Sources */,
+				E9AAB4FA2AA8C06100409184 /* FooterView.swift in Sources */,
+				E9AAB4F82AA8C03900409184 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
